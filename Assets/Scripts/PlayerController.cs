@@ -79,6 +79,10 @@ public class PlayerController : MonoBehaviour
                     animator.SetBool("isDead", true);
                     Death();
                 }
+                if(collision.gameObject.tag == "Exit")
+                        {
+                             EndLevel();
+                        }
 
     }
 
@@ -93,6 +97,8 @@ public class PlayerController : MonoBehaviour
                         {
                             Death();
                         }
+
+
     }
 
     void Flip()
@@ -113,5 +119,10 @@ public class PlayerController : MonoBehaviour
             Application.LoadLevel(1);
 
 
+        }
+
+        void EndLevel()
+        {
+        Application.LoadLevel(2);
         }
 }
