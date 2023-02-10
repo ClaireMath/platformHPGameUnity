@@ -17,7 +17,7 @@ public class EndOfLevel : MonoBehaviour
             Debug.Log("on est dans la colision Hagrid");
            // Application.LoadLevel(0);
             // GameLifeScript.health -= 1;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
 
         }
     }

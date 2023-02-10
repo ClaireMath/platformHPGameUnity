@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FREE Parallax Forest Background HQ/Scenes/Demoscene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SkySceneClaire.unity
+    guid: cdb90f3e46e684a1a81b3aef4e11c239
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: ce6a71901a2294c31b04cdbfa8b7905e
   m_configObjects: {}

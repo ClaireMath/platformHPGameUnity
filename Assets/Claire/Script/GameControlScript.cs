@@ -49,7 +49,7 @@ public class GameControlScript : MonoBehaviour
                 gameOver.gameObject.SetActive(true);
 
                 //Time.timeScale = 0;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene(1);
                 //Time.timeScale = 120;
                 break;
 

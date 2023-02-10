@@ -10,7 +10,7 @@ public class EndCheck : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             Debug.Log("dans le check");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(1);
             
         }
     }

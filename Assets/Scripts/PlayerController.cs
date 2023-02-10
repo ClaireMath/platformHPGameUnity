@@ -115,12 +115,12 @@ public class PlayerController : MonoBehaviour
         {
             isDead = true;
             animator.SetBool("isDead", true);
-            Application.LoadLevel(0);
+            Application.LoadLevel(2);
 
 
         }
         void Finish()
         {
-            Application.LoadLevel(1);
+            Application.LoadLevel(0);
         }
 }
