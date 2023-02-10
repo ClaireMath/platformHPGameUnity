@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Potion
-  - Hagrid
-  - Heart
+  - Platform
+  - Trap
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -41,6 +41,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3201379129
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1182399367
     locked: 0
